@@ -81,9 +81,6 @@ BOARD_USE_SAMSUNG_CAMERAFORMAT_NV21 := true
 # Audio HAL variant
 TARGET_AUDIOHAL_VARIANT := samsung
 
-# Enable real time lockscreen charging current values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
-
 # Graphics
 USE_OPENGL_RENDERER := true
 BOARD_USES_VIRTUAL_DISPLAY := true
